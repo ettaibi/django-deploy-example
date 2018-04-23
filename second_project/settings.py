@@ -26,7 +26,7 @@ SECRET_KEY = '9u+isob!72j4$4rba#lol)72j%b8^faa_87^$2-a#fjh&+m6h6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['http://mettaibi.pythonanywhere.com/']
 
 
 # Application definition
