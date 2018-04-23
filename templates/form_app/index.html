@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends "form_app/basic.html" %}
+{% block body_block %}
+      <h1>Welcome to My first Django App</h1>
+      {{ text|cut:'world' }}
+      {{ number|add:"99" }}
+{% endblock %}
